@@ -1,0 +1,52 @@
+.calc-app{
+    text-align: center;
+}
+.calc-app .input-field{
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.calc-app .input-field input{
+    border: none;
+    background: transparent;
+    width: 100%;
+    padding: 15px;
+    color: #000000;
+    font-weight: 800;
+    font-size: 24px;
+}
+.calc-app .input-field input:focus{
+    outline: 3px solid rgb(25, 255, 25);
+    border-radius: 15px;
+    border: 0;
+}
+.calc-app .input-field input::placeholder{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.calc-app .button-box{
+    padding: 20px;
+    margin: 0 auto;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    background: #fff;
+}
+.calc-app .button-box button{
+    border: none;
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    font-size: 24px;
+    background: #d8d7fa4f;
+    margin: 5px;
+    transition: ease-in-out .3s all;
+}
+.calc-app .button-box button:hover{
+    transform: scale(0.9);
+    background: #90ee907a;
+}
